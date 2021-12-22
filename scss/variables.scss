@@ -1,0 +1,31 @@
+$background-header: rgb(230,185,205);
+$hover-btn: rgb(253, 225, 188);
+$redes: ( 
+        instagram: #ee55da,
+        facebook:  #3a5795,
+        twitter: #55acee,
+        send-mail: #fc3737
+        ); 
+
+@each $red, $color in $redes {
+    .icono#{$red} {
+       color: $color;
+   }
+}
+
+@mixin flex-row-botones{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.contBotones {
+   @include flex-row-botones;
+}
+
+.boton-enviar {
+    @extend .masProductos;  
+}
+
