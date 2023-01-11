@@ -1,4 +1,4 @@
-$background-header: rgb(230,185,205);
+$background-header: white;
 $hover-btn: rgb(253, 225, 188);
 $redes: ( 
         instagram: #ee55da,
@@ -28,4 +28,6 @@ $redes: (
 .boton-enviar {
     @extend .masProductos;  
 }
+
+
 

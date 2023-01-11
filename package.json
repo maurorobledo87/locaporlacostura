@@ -13,6 +13,13 @@
     "node-sass": "^7.0.0",
     "nodemon": "^2.0.15"
   },
-  "dependencies": {},
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maurorobledo87/locaporlacostura.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maurorobledo87/locaporlacostura/issues"
+  },
+  "homepage": "https://github.com/maurorobledo87/locaporlacostura#readme"
 }
